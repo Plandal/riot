@@ -1,0 +1,20 @@
+<html lang='fr-FR'>
+	<head>
+		<page-head></page-head>
+  	</head>
+	<body>
+		<page-content></page-content>
+
+		<!-- inclure le tag -->
+		<script src="./tags/page-head.tag" type="riot/tag"></script>
+		<script src="./tags/page-content.tag" type="riot/tag"></script>
+
+		<!-- include riot.js and the compiler -->
+  		<script src="https://cdn.jsdelivr.net/riot/2.5/riot+compiler.min.js"></script>
+
+		<!-- monter le tag -->
+		<script>riot.mount('page-head', { title: 'Erreur'})</script>
+		<script>riot.mount('page-content', { accueil: 'Erreur 404'})</script>	
+	</body>
+	<footer></footer>
+</html>

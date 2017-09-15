@@ -1,0 +1,20 @@
+{
+  "name": "riot",
+  "version": "1.0.0",
+  "description": "Faire un git clone ssh://git@sshgit.insta.fr:2121/k.kelleoglu/riot.git\r cd riot\r Commencer par npm install - g bower depuis le dossier riot \r Puis faire bower install",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@sshgit.insta.fr:2121/k.kelleoglu/riot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "querystring": "^0.2.0"
+  }
+}

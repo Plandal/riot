@@ -1,0 +1,22 @@
+Faire un git clone ssh://git@sshgit.insta.fr:2121/k.kelleoglu/riot.git
+cd riot
+Commencer par npm install - g bower depuis le dossier riot 
+Puis faire bower install 
+
+___________________________________
+
+Pour chaque git clone :
+
+npm install
+cd web
+bower install
+cd ..
+node init.js
+
+___________________________________
+
+Pour créer un nouvelle branch :
+
+git branch "nomdetabranch"
+git checkout "nomdetabranch"
+git push origin "nomdetabranch"
